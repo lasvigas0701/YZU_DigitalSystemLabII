@@ -1,0 +1,169 @@
+|s1113341_lab03_bonus
+C0 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst7.IN0
+A0 => inst6.IN0
+A0 => inst5.IN0
+A0 => inst4.IN0
+B0 => inst7.IN1
+B0 => inst8.IN1
+B0 => inst13.IN1
+C1 <= 4bit_adder:inst.S0
+A1 => inst8.IN0
+A1 => inst1.IN0
+A1 => inst2.IN0
+A1 => inst3.IN0
+B1 => inst6.IN1
+B1 => inst1.IN1
+B1 => inst12.IN1
+B2 => inst5.IN1
+B2 => inst2.IN1
+B2 => inst11.IN1
+B3 => inst4.IN1
+B3 => inst3.IN1
+B3 => inst10.IN1
+0 => 4bit_adder:inst.A3
+0 => 4bit_adder:inst.M
+0 => 4bit_adder:inst9.M
+C6 <= 4bit_adder:inst9.C
+A2 => inst13.IN0
+A2 => inst12.IN0
+A2 => inst11.IN0
+A2 => inst10.IN0
+C5 <= 4bit_adder:inst9.S3
+C4 <= 4bit_adder:inst9.S2
+C3 <= 4bit_adder:inst9.S1
+C2 <= 4bit_adder:inst9.S0
+
+
+|s1113341_lab03_bonus|4bit_adder:inst
+S0 <= fulladd:inst1.S
+A0 => fulladd:inst1.A
+B0 => inst2.IN0
+M => inst2.IN1
+M => fulladd:inst1.Ci
+M => inst3.IN1
+M => inst4.IN1
+M => inst7.IN1
+S1 <= fulladd:inst.S
+A1 => fulladd:inst.A
+B1 => inst3.IN0
+S2 <= fulladd:inst5.S
+A2 => fulladd:inst5.A
+B2 => inst4.IN0
+S3 <= fulladd:inst6.S
+A3 => fulladd:inst6.A
+B3 => inst7.IN0
+C <= fulladd:inst6.Ci1
+V <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst|fulladd:inst1
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst|fulladd:inst
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst|fulladd:inst5
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst|fulladd:inst6
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst9
+S0 <= fulladd:inst1.S
+A0 => fulladd:inst1.A
+B0 => inst2.IN0
+M => inst2.IN1
+M => fulladd:inst1.Ci
+M => inst3.IN1
+M => inst4.IN1
+M => inst7.IN1
+S1 <= fulladd:inst.S
+A1 => fulladd:inst.A
+B1 => inst3.IN0
+S2 <= fulladd:inst5.S
+A2 => fulladd:inst5.A
+B2 => inst4.IN0
+S3 <= fulladd:inst6.S
+A3 => fulladd:inst6.A
+B3 => inst7.IN0
+C <= fulladd:inst6.Ci1
+V <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst9|fulladd:inst1
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst9|fulladd:inst
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst9|fulladd:inst5
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab03_bonus|4bit_adder:inst9|fulladd:inst6
+S <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst2.IN0
+A => inst.IN0
+B => inst2.IN1
+B => inst.IN1
+Ci => inst4.IN1
+Ci => inst3.IN1
+Ci1 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+

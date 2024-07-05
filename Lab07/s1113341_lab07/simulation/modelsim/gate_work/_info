@@ -1,0 +1,35 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\91sp2\quartus\s1113341_lab07\simulation\modelsim
+vs1113341_lab07
+I^o:J`cEQ^lTZnW]5[QCI;2
+Vl_zH<@9<d8PiO8VDe0MhV0
+w1712946819
+8s1113341_lab07.vo
+Fs1113341_lab07.vo
+L0 31
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 o-vlog01compat -work work -O0
+!s100 On5VEoW;n1Y;]6Y0F8goj2
+!s85 0
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vtest
+!s100 SW2c@ImGTZ412IgJ]CkNX3
+I^hjb:HZg0oJQVJ`Ri1KCR1
+Vk<3<[f=78GX=_HO53D;7>3
+w1712946799
+8C:/altera/91sp2/quartus/s1113341_lab07/test.v
+FC:/altera/91sp2/quartus/s1113341_lab07/test.v
+L0 3
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+!s92 -vlog01compat -work work +incdir+C:/altera/91sp2/quartus/s1113341_lab07 -O0

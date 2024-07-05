@@ -1,0 +1,28 @@
+|s1113341_lab08_1
+clrn => bufferQ[0].ACLR
+clrn => bufferQ[1].ACLR
+clrn => bufferQ[2].ACLR
+clrn => bufferQ[3].ACLR
+clk => bufferQ[0].CLK
+clk => bufferQ[1].CLK
+clk => bufferQ[2].CLK
+clk => bufferQ[3].CLK
+Ldn => bufferQ.OUTPUTSELECT
+Ldn => bufferQ.OUTPUTSELECT
+Ldn => bufferQ.OUTPUTSELECT
+Ldn => bufferQ.OUTPUTSELECT
+Sh => bufferQ.OUTPUTSELECT
+Sh => bufferQ.OUTPUTSELECT
+Sh => bufferQ.OUTPUTSELECT
+Sh => bufferQ.OUTPUTSELECT
+Di => bufferQ.DATAB
+D3 => bufferQ.DATAB
+D2 => bufferQ.DATAB
+D1 => bufferQ.DATAB
+D0 => bufferQ.DATAB
+Q3 <= bufferQ[3].DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= bufferQ[2].DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= bufferQ[1].DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= bufferQ[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

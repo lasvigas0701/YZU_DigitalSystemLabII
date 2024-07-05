@@ -1,0 +1,9 @@
+|s1113341_lab08_2
+clk => tmp_Q[0].CLK
+clk => tmp_Q[1].CLK
+clrn => tmp_Q[0].ACLR
+clrn => tmp_Q[1].ACLR
+Q[0] <= tmp_Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= tmp_Q[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

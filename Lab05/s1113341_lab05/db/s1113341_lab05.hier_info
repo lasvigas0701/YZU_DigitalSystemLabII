@@ -1,0 +1,28 @@
+|s1113341_lab05
+ck => temp[0].CLK
+ck => temp[1].CLK
+ck => temp[2].CLK
+ck => temp[3].CLK
+ck => temp[4].CLK
+ck => temp[5].CLK
+ck => temp[6].CLK
+ck => temp[7].CLK
+din => temp[0].DATAIN
+reset => temp[0].ACLR
+reset => temp[1].ACLR
+reset => temp[2].ACLR
+reset => temp[3].ACLR
+reset => temp[4].ACLR
+reset => temp[5].ACLR
+reset => temp[6].ACLR
+reset => temp[7].ACLR
+q[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= temp[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= temp[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= temp[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= temp[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

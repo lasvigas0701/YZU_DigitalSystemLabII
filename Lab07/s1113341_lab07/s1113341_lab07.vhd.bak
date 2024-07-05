@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity s1113341_lab07 is
+    port(
+        A, B: in std_logic_vector(3 downto 0);
+        sel: in std_logic_vector(1 downto 0);
+        aluo: out std_logic_vector(4 downto 0)
+    );
+end s1113341_lab07;
+
+architecture arch of s1113341_lab07 is
+begin
+    process(sel)
+    begin
+        case sel is
+			when "00" =>
+				aluo <= signed("0" & A) or signed("0" & B);
+			when "01" =>
+				aluo <= signed("0" & A) and signed("0" & B);
+			when "10" =>
+				aluo <= signed("0" & A) - signed("0" & B);
+			when "11" =>
+				aluo <= signed("0" & A) + signed("0" & B);
+		end case;
+    end process;
+end arch;

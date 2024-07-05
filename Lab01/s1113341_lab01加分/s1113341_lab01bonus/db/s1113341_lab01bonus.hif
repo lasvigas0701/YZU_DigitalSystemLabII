@@ -1,0 +1,43 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+s1113341_lab01bonus
+# storage
+db|s1113341_lab01bonus.(0).cnf
+db|s1113341_lab01bonus.(0).cnf
+# case_insensitive
+# source_file
+s1113341_lab01bonus.bdf
+13eae8d445a9fea97b1a1ad51f04ce
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

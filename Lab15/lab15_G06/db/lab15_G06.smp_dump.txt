@@ -1,0 +1,6 @@
+
+State Machine - |lab15_G06|state
+Name state.RED state.YELLOW state.GREEN 
+state.GREEN 0 0 0 
+state.YELLOW 0 1 1 
+state.RED 1 0 1 

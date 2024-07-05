@@ -1,0 +1,26 @@
+|lab14_G06
+btn2 => count[0].CLK
+btn2 => count[1].CLK
+btn2 => count[2].CLK
+btn2 => count[3].CLK
+btn2 => count[4].CLK
+btn2 => count[5].CLK
+btn2 => count[6].CLK
+hex0[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+hex0[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+hex0[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+hex0[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+hex0[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+hex0[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+hex0[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+hex0[7] <= <VCC>
+hex1[0] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+hex1[1] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+hex1[2] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+hex1[3] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+hex1[4] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+hex1[5] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+hex1[6] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+hex1[7] <= <VCC>
+
+

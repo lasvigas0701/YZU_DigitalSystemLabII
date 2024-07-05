@@ -1,0 +1,80 @@
+|s1113341_lab09
+clk => Counter10:inst3.clk
+clk => Counter6:inst.clk
+clrn => Counter10:inst3.clrn
+clrn => Counter6:inst.clrn
+en => Counter10:inst3.en
+en => Counter6:inst.en
+load => Counter10:inst3.load
+load => Counter6:inst.load
+Da[0] => Counter10:inst3.Da[0]
+Da[1] => Counter10:inst3.Da[1]
+Da[2] => Counter10:inst3.Da[2]
+Da[3] => Counter10:inst3.Da[3]
+Db[0] => Counter6:inst.Db[0]
+Db[1] => Counter6:inst.Db[1]
+Db[2] => Counter6:inst.Db[2]
+Co <= inc.DB_MAX_OUTPUT_PORT_TYPE
+qa[0] <= Counter10:inst3.Qa[0]
+qa[1] <= Counter10:inst3.Qa[1]
+qa[2] <= Counter10:inst3.Qa[2]
+qa[3] <= Counter10:inst3.Qa[3]
+qb[0] <= Counter6:inst.Qb[0]
+qb[1] <= Counter6:inst.Qb[1]
+qb[2] <= Counter6:inst.Qb[2]
+
+
+|s1113341_lab09|Counter10:inst3
+clk => carry_out~reg0.CLK
+clk => temp_Qa[0].CLK
+clk => temp_Qa[1].CLK
+clk => temp_Qa[2].CLK
+clk => temp_Qa[3].CLK
+clrn => temp_Qa[0].ACLR
+clrn => temp_Qa[1].ACLR
+clrn => temp_Qa[2].ACLR
+clrn => temp_Qa[3].ACLR
+clrn => carry_out~reg0.ENA
+en => temp_Qa[3].ENA
+en => temp_Qa[2].ENA
+en => temp_Qa[1].ENA
+en => temp_Qa[0].ENA
+load => temp_Qa.OUTPUTSELECT
+load => temp_Qa.OUTPUTSELECT
+load => temp_Qa.OUTPUTSELECT
+load => temp_Qa.OUTPUTSELECT
+Da[0] => temp_Qa.DATAB
+Da[1] => temp_Qa.DATAB
+Da[2] => temp_Qa.DATAB
+Da[3] => temp_Qa.DATAB
+Qa[0] <= temp_Qa[0].DB_MAX_OUTPUT_PORT_TYPE
+Qa[1] <= temp_Qa[1].DB_MAX_OUTPUT_PORT_TYPE
+Qa[2] <= temp_Qa[2].DB_MAX_OUTPUT_PORT_TYPE
+Qa[3] <= temp_Qa[3].DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|s1113341_lab09|Counter6:inst
+clk => temp_Qb[0].CLK
+clk => temp_Qb[1].CLK
+clk => temp_Qb[2].CLK
+clrn => temp_Qb[0].ACLR
+clrn => temp_Qb[1].ACLR
+clrn => temp_Qb[2].ACLR
+en => temp_Qb[0].ENA
+en => temp_Qb[2].ENA
+en => temp_Qb[1].ENA
+load => temp_Qb.OUTPUTSELECT
+load => temp_Qb.OUTPUTSELECT
+load => temp_Qb.OUTPUTSELECT
+inc => temp_Qb.OUTPUTSELECT
+inc => temp_Qb.OUTPUTSELECT
+inc => temp_Qb.OUTPUTSELECT
+Db[0] => temp_Qb.DATAB
+Db[1] => temp_Qb.DATAB
+Db[2] => temp_Qb.DATAB
+Qb[0] <= temp_Qb[0].DB_MAX_OUTPUT_PORT_TYPE
+Qb[1] <= temp_Qb[1].DB_MAX_OUTPUT_PORT_TYPE
+Qb[2] <= temp_Qb[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

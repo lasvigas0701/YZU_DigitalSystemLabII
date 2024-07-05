@@ -1,0 +1,13 @@
+|s1113341_lab04_1
+A => y~5.IN0
+A => y~0.IN0
+B => y~5.IN1
+B => y~1.IN0
+C => y~6.IN1
+C => y~0.IN1
+C => y~3.IN0
+D => y~1.IN1
+D => y~3.IN1
+y <= y~7.DB_MAX_OUTPUT_PORT_TYPE
+
+

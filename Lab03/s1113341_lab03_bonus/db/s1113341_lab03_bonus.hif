@@ -1,0 +1,91 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+10
+767
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+4bit_adder
+# storage
+db|s1113341_lab03_bonus.(1).cnf
+db|s1113341_lab03_bonus.(1).cnf
+# case_insensitive
+# source_file
+4bit_adder.bdf
+b1f55b465d88953eed8ace8227eb829
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+4bit_adder:inst
+4bit_adder:inst9
+}
+# macro_sequence
+
+# end
+# entity
+fulladd
+# storage
+db|s1113341_lab03_bonus.(2).cnf
+db|s1113341_lab03_bonus.(2).cnf
+# case_insensitive
+# source_file
+fulladd.bdf
+7fdd4befcf1922be282c116abc5ffc2
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+4bit_adder:inst|fulladd:inst1
+4bit_adder:inst|fulladd:inst
+4bit_adder:inst|fulladd:inst5
+4bit_adder:inst|fulladd:inst6
+4bit_adder:inst9|fulladd:inst1
+4bit_adder:inst9|fulladd:inst
+4bit_adder:inst9|fulladd:inst5
+4bit_adder:inst9|fulladd:inst6
+}
+# macro_sequence
+
+# end
+# entity
+s1113341_lab03_bonus
+# storage
+db|s1113341_lab03_bonus.(0).cnf
+db|s1113341_lab03_bonus.(0).cnf
+# case_insensitive
+# source_file
+s1113341_lab03_bonus.bdf
+623f9ff850d8d3bedfa11ac879c8dfa
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

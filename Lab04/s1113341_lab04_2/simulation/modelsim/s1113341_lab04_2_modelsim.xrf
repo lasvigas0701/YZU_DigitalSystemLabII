@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/91sp2/quartus/s1113341_lab04_2/s1113341_lab04_2.vhd
+source_file = 1, C:/altera/91sp2/quartus/s1113341_lab04_2/s1113341_lab04_2.vwf
+source_file = 1, C:/altera/91sp2/quartus/s1113341_lab04_2/db/s1113341_lab04_2.cbx.xml
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/91sp2/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = s1113341_lab04_2
+instance = comp, \y~output\, y~output, s1113341_lab04_2, 1
+instance = comp, \B~input\, B~input, s1113341_lab04_2, 1
+instance = comp, \D~input\, D~input, s1113341_lab04_2, 1
+instance = comp, \C~input\, C~input, s1113341_lab04_2, 1
+instance = comp, \A~input\, A~input, s1113341_lab04_2, 1
+instance = comp, \y~0\, y~0, s1113341_lab04_2, 1

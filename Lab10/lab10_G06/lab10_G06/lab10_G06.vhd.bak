@@ -1,0 +1,15 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- 定義實體(entity)，這是與外界接口的描述
+entity lab10_G06 is
+    Port ( SW : in  STD_LOGIC_VECTOR(9 downto 0);
+           LED : out  STD_LOGIC_VECTOR(9 downto 0));
+end lab10_G06;
+
+-- 描述行為(architecture)，定義實體的內部邏輯
+architecture Behavioral of lab10_G06 is
+begin
+    -- 直接將開關狀態輸出到LED燈
+    LED <= SW;
+end Behavioral;

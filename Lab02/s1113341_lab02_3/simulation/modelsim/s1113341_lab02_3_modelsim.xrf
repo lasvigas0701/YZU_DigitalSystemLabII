@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/91sp2/quartus/s1113341_lab02_3/s1113341_lab02_3.bdf
+source_file = 1, C:/altera/91sp2/quartus/s1113341_lab02_3/s1113341_lab02_3.vwf
+source_file = 1, C:/altera/91sp2/quartus/s1113341_lab02_3/db/s1113341_lab02_3.cbx.xml
+design_name = s1113341_lab02_3
+instance = comp, \I0~input\, I0~input, s1113341_lab02_3, 1
+instance = comp, \Z~output\, Z~output, s1113341_lab02_3, 1
+instance = comp, \I2~input\, I2~input, s1113341_lab02_3, 1
+instance = comp, \I1~input\, I1~input, s1113341_lab02_3, 1
+instance = comp, \S0~input\, S0~input, s1113341_lab02_3, 1
+instance = comp, \S1~input\, S1~input, s1113341_lab02_3, 1
+instance = comp, \inst7~0\, inst7~0, s1113341_lab02_3, 1
+instance = comp, \I3~input\, I3~input, s1113341_lab02_3, 1
+instance = comp, \inst7~1\, inst7~1, s1113341_lab02_3, 1

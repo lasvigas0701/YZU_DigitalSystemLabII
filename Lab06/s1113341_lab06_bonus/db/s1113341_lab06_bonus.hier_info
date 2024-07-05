@@ -1,0 +1,14 @@
+|s1113341_lab06_bonus
+CLK => str_out_tmp[0].CLK
+CLK => str_out_tmp[1].CLK
+CLK => str_out_tmp[2].CLK
+RESET => str_out_tmp[0].ACLR
+RESET => str_out_tmp[1].ACLR
+RESET => str_out_tmp[2].ACLR
+str_in => str_out_tmp[0].DATAIN
+str_out[0] <= str_out_tmp[0].DB_MAX_OUTPUT_PORT_TYPE
+str_out[1] <= str_out_tmp[1].DB_MAX_OUTPUT_PORT_TYPE
+str_out[2] <= str_out_tmp[2].DB_MAX_OUTPUT_PORT_TYPE
+match <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
